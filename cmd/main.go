@@ -12,6 +12,7 @@ func main() {
 
 	r := gin.Default()
 	routes.AuthRoutes(r)
+	routes.ProductRoutes(r)
 
 	r.Run(":8080")
 
